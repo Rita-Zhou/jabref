@@ -28,7 +28,7 @@ public class BiblatexEntryTypeDefinitions {
                     StandardField.ORIGLANGUAGE, StandardField.SERIES, StandardField.VOLUME, StandardField.NUMBER, StandardField.EID,
                     StandardField.ISSUE, StandardField.PAGES, StandardField.VERSION, StandardField.NOTE,
                     StandardField.ISSN, StandardField.ADDENDUM, StandardField.PUBSTATE, StandardField.DOI, StandardField.EPRINT,
-                    StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)
+                    StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE, StandardField.FJOURNAL)
             .withRequiredFields(
                     StandardField.AUTHOR, StandardField.TITLE, StandardField.JOURNALTITLE, StandardField.DATE)
             .build();
