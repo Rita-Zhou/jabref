@@ -61,6 +61,7 @@ public class AbbreviateAction extends SimpleCommand {
 
     @Override
     public void execute() {
+        System.out.println("test");
         if (action == StandardActions.ABBREVIATE_DEFAULT
                 || action == StandardActions.ABBREVIATE_MEDLINE
                 || action == StandardActions.ABBREVIATE_SHORTEST_UNIQUE) {
